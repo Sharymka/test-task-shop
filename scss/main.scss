@@ -67,23 +67,15 @@ body {
   .page__filters {
     flex: 1;
     min-width: 0;
-    max-width: calc(100% - clamp(200px, 30vw, 400px) - 20px);
-    overflow: hidden;
+    max-width: none;
+    overflow: visible;
   }
   
   .page__filters-list {
     display: flex;
     flex-wrap: nowrap !important;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    white-space: nowrap;
-  }
-  
-  .page__filters-list::-webkit-scrollbar {
-    display: none;
+    overflow-x: visible;
+    overflow-y: visible;
   }
   
   .page__filters-item {
