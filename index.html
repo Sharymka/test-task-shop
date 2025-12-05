@@ -12,57 +12,97 @@
             <p class="page__subtitle">ENJOY YOUR STUDYING!</p>
             <h1 class="page__title">Our online courses</h1>
         </header>
-        <div class="page__filters">
-            <ul class="page__filters-list">
-                <li class="page__filters-item">
-                    <button class="page__filters-button page__filters-button_active" data-category="all">
-                        All <span class="page__filters-count">17</span>
+        <div class="page__controls">
+            <div class="page__filters">
+                <div class="page__filters-dropdown">
+                        <button class="page__filters-dropdown-toggle" id="dropdownToggle">
+                        <span class="page__filters-dropdown-text" id="dropdownText">All</span>
+                        <svg class="page__filters-dropdown-icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L6 6L11 1" stroke="#9A9CA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     </button>
-                </li>
-                <li class="page__filters-item">
-                    <button class="page__filters-button" data-category="marketing">
-                        Marketing <span class="page__filters-count">4</span>
-                    </button>
-                </li>
-                <li class="page__filters-item">
-                    <button class="page__filters-button" data-category="management">
-                        Management <span class="page__filters-count">3</span>
-                    </button>
-                </li>
-                <li class="page__filters-item">
-                    <button class="page__filters-button" data-category="hr">
-                        HR & Recruiting <span class="page__filters-count">5</span>
-                    </button>
-                </li>
-                <li class="page__filters-item">
-                    <button class="page__filters-button" data-category="design">
-                        Design <span class="page__filters-count">2</span>
-                    </button>
-                </li>
-                <li class="page__filters-item">
-                    <button class="page__filters-button" data-category="development">
-                        Development <span class="page__filters-count">3</span>
-                    </button>
-                </li>
-            </ul>
-        </div>
-        <div class="page__search">
-            <input 
-                type="text" 
-                class="page__search-input" 
-                placeholder="Search course..." 
-                id="searchInput"
-            >
-            <img src="images/search.png" alt="Search" class="page__search-icon">
+                    <ul class="page__filters-dropdown-menu" id="dropdownMenu">
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option page__filters-dropdown-option_active" data-category="all" data-count="17">
+                                All <span class="page__filters-dropdown-option-count">17</span>
+                            </button>
+                        </li>
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option" data-category="marketing" data-count="4">
+                                Marketing <span class="page__filters-dropdown-option-count">4</span>
+                            </button>
+                        </li>
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option" data-category="management" data-count="4">
+                                Management <span class="page__filters-dropdown-option-count">4</span>
+                            </button>
+                        </li>
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option" data-category="hr" data-count="3">
+                                HR & Recruiting <span class="page__filters-dropdown-option-count">3</span>
+                            </button>
+                        </li>
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option" data-category="design" data-count="3">
+                                Design <span class="page__filters-dropdown-option-count">3</span>
+                            </button>
+                        </li>
+                        <li class="page__filters-dropdown-item">
+                            <button class="page__filters-dropdown-option" data-category="development" data-count="3">
+                                Development <span class="page__filters-dropdown-option-count">3</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="page__filters-list">
+                    <li class="page__filters-item">
+                        <button class="page__filters-button page__filters-button_active" data-category="all" data-count="17">
+                            All
+                        </button>
+                    </li>
+                    <li class="page__filters-item">
+                        <button class="page__filters-button" data-category="marketing" data-count="4">
+                            Marketing
+                        </button>
+                    </li>
+                    <li class="page__filters-item">
+                        <button class="page__filters-button" data-category="management" data-count="4">
+                            Management
+                        </button>
+                    </li>
+                    <li class="page__filters-item">
+                        <button class="page__filters-button" data-category="hr" data-count="3">
+                            HR & Recruiting
+                        </button>
+                    </li>
+                    <li class="page__filters-item">
+                        <button class="page__filters-button" data-category="design" data-count="3">
+                            Design
+                        </button>
+                    </li>
+                    <li class="page__filters-item">
+                        <button class="page__filters-button" data-category="development" data-count="3">
+                            Development
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="page__search">
+                <input 
+                    type="text" 
+                    class="page__search-input" 
+                    placeholder="Search course..." 
+                    id="searchInput"
+                >
+                <img src="images/search.png" alt="Search" class="page__search-icon">
+            </div>
         </div>
 
         <div class="page__course-grid" id="courseGrid">
         </div>
         <div class="page__load-more">
             <button class="page__load-more-button" id="loadMoreBtn">
-                <svg class="page__load-more-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 0V16M0 8H16" stroke="white" stroke-width="2"/>
-                </svg>
+                <img src="images/Vector.svg" alt="" class="page__load-more-icon">
                 Load more
             </button>
         </div>
