@@ -1,2 +1,58 @@
 
 
+// Text colors
+$color-text-primary: #1E212C;     
+$color-text-secondary: #9A9CA5;   
+$color-text-white: #FFFFFF;        
+
+// Accent colors
+$color-accent: #FF4242;           
+$color-button-dark: #424551;     
+
+// Category colors
+$color-category-marketing: #03CEA4;      
+$color-category-management: #5A87FC;    
+$color-category-hr: #F89828;            
+$color-category-design: #F52F6E;  
+$color-category-development: #7772F1;
+
+// Background colors
+$color-bg-white: #FFFFFF;
+$color-bg-yellow: #FFCF00;      
+
+// Typography
+$font-family: 'Lato', sans-serif;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Font sizes
+$font-size-category-tag: 14px;     
+$font-size-navigation: 16px;      
+$font-size-price: 18px;        
+$font-size-author: 18px;            
+$font-size-course-title: 20px;
+
+// Line heights
+$line-height-tight: 150%; 
+$line-height-normal: 160%;       
+
+// Shadows
+$shadow-card: 
+  0px 4px 4px -4px #1E212C08,
+  0px 12px 10px -6px #9A9CA50A,
+  0px 30px 24px -10px #9A9CA50D,
+  0px 80px 80px -20px #9A9CA514;
+
+// Spacing
+$spacing-xs: 8px;
+$spacing-sm: 16px;
+$spacing-md: 24px;
+$spacing-lg: 32px;
+$spacing-xl: 40px;
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
