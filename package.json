@@ -1,0 +1,13 @@
+{
+  "name": "test-task-shop",
+  "version": "1.0.0",
+  "description": "Test task - online courses catalog",
+  "scripts": {
+    "sass": "sass scss/main.scss:css/main.css --watch",
+    "sass:build": "sass scss/main.scss:css/main.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
+
