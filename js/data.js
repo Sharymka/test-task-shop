@@ -1,5 +1,4 @@
 const courses = [
-  // Marketing (4 курса)
   {
     id: 1,
     title: "The Ultimate Google Ads Training Course",
@@ -7,6 +6,22 @@ const courses = [
     instructor: "Jerome Bell",
     category: "marketing",
     image: "images/jerome-bell.png"
+  },
+  {
+    id: 2,
+    title: "Product Management Fundamentals",
+    price: 480,
+    instructor: "Marvin McKinney",
+    category: "management",
+    image: "images/marvin-mckinney.png"
+  },
+  {
+    id: 3,
+    title: "HR Management and Analytics",
+    price: 200,
+    instructor: "Leslie Alexander Li",
+    category: "hr",
+    image: "images/leslie-alexander-li.png"
   },
   {
     id: 4,
@@ -17,30 +32,12 @@ const courses = [
     image: "images/kristin-watson.png"
   },
   {
-    id: 10,
-    title: "Social Media Marketing Strategy",
-    price: 350,
-    instructor: "Jerome Bell",
-    category: "marketing",
-    image: "images/jerome-bell.png"
-  },
-  {
-    id: 11,
-    title: "Content Marketing Mastery",
-    price: 420,
-    instructor: "Kristin Watson",
-    category: "marketing",
-    image: "images/kristin-watson.png"
-  },
-  
-  // Management (3 курса)
-  {
-    id: 2,
-    title: "Product Management Fundamentals",
-    price: 480,
-    instructor: "Marvin McKinney",
-    category: "management",
-    image: "images/marvin-mckinney.png"
+    id: 5,
+    title: "Graphic Design Basic",
+    price: 500,
+    instructor: "Guy Hawkins",
+    category: "design",
+    image: "images/guy-hawkins.png"
   },
   {
     id: 6,
@@ -51,22 +48,12 @@ const courses = [
     image: "images/dianne-russell.png"
   },
   {
-    id: 12,
-    title: "Strategic Leadership & Team Building",
-    price: 550,
-    instructor: "Marvin McKinney",
-    category: "management",
-    image: "images/marvin-mckinney.png"
-  },
-  
-  // HR & Recruiting (5 курсов)
-  {
-    id: 3,
-    title: "HR Management and Analytics",
-    price: 200,
-    instructor: "Leslie Alexander Li",
-    category: "hr",
-    image: "images/leslie-alexander-li.png"
+    id: 7,
+    title: "Highload Software Architecture",
+    price: 600,
+    instructor: "Brooklyn Simmons",
+    category: "development",
+    image: "images/brooklyn-simmons.png"
   },
   {
     id: 8,
@@ -77,40 +64,6 @@ const courses = [
     image: "images/kathryn-murphy.png"
   },
   {
-    id: 13,
-    title: "Employee Engagement & Retention",
-    price: 280,
-    instructor: "Leslie Alexander Li",
-    category: "hr",
-    image: "images/leslie-alexander-li.png"
-  },
-  {
-    id: 14,
-    title: "Talent Acquisition Strategies",
-    price: 320,
-    instructor: "Kathryn Murphy",
-    category: "hr",
-    image: "images/kathryn-murphy.png"
-  },
-  {
-    id: 15,
-    title: "Performance Management Systems",
-    price: 250,
-    instructor: "Leslie Alexander Li",
-    category: "hr",
-    image: "images/leslie-alexander-li.png"
-  },
-  
-  // Design (2 курса)
-  {
-    id: 5,
-    title: "Graphic Design Basic",
-    price: 500,
-    instructor: "Guy Hawkins",
-    category: "design",
-    image: "images/guy-hawkins.png"
-  },
-  {
     id: 9,
     title: "User Experience. Human-centered Design",
     price: 240,
@@ -118,30 +71,68 @@ const courses = [
     category: "design",
     image: "images/cody-fisher.png"
   },
-  
-  // Development (3 курса)
   {
-    id: 7,
-    title: "Highload Software Architecture",
-    price: 600,
-    instructor: "Brooklyn Simmons",
-    category: "development",
-    image: "images/brooklyn-simmons.png"
+    id: 10,
+    title: "Advanced Digital Marketing Strategies",
+    price: 199,
+    instructor: "Jerome Bell",
+    category: "marketing",
+    image: "images/jerome-bell.png"
+  },
+  {
+    id: 11,
+    title: "Social Media Marketing Mastery",
+    price: 149,
+    instructor: "Marvin McKinney",
+    category: "marketing",
+    image: "images/marvin-mckinney.png"
+  },
+  {
+    id: 12,
+    title: "Leadership and Team Management",
+    price: 349,
+    instructor: "Leslie Alexander Li",
+    category: "management",
+    image: "images/leslie-alexander-li.png"
+  },
+  {
+    id: 13,
+    title: "Strategic Business Planning",
+    price: 399,
+    instructor: "Dianne Russell",
+    category: "management",
+    image: "images/dianne-russell.png"
+  },
+  {
+    id: 14,
+    title: "Talent Acquisition Best Practices",
+    price: 249,
+    instructor: "Kathryn Murphy",
+    category: "hr",
+    image: "images/kathryn-murphy.png"
+  },
+  {
+    id: 15,
+    title: "UI/UX Design Fundamentals",
+    price: 179,
+    instructor: "Guy Hawkins",
+    category: "design",
+    image: "images/guy-hawkins.png"
   },
   {
     id: 16,
-    title: "Full Stack Web Development",
-    price: 450,
+    title: "Web Development Bootcamp",
+    price: 499,
     instructor: "Brooklyn Simmons",
     category: "development",
     image: "images/brooklyn-simmons.png"
   },
   {
     id: 17,
-    title: "Modern JavaScript Frameworks",
-    price: 380,
-    instructor: "Brooklyn Simmons",
+    title: "Mobile App Development",
+    price: 449,
+    instructor: "Cody Fisher",
     category: "development",
-    image: "images/brooklyn-simmons.png"
+    image: "images/cody-fisher.png"
   }
 ];
